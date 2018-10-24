@@ -1,0 +1,103 @@
+/*!
+Theme Name: The Hungry Hapa
+Theme URI: http://underscores.me/
+Author: Paul Gay
+Author URI: http://www.thehungryhapa.com
+Description: The Hungry Hapa is a blog dedicated to food and features recipes, reviews, and tips to satisfy any foodie.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: the-hungry-hapa
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+The Hungry Hapa is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+
+/*--------------------------------------------------------------
+# Reviews
+--------------------------------------------------------------*/
+@import "pages/review";
+
+/*--------------------------------------------------------------
+# Cocktails
+--------------------------------------------------------------*/
+@import "pages/cocktail";
+
+/*--------------------------------------------------------------
+# Home
+--------------------------------------------------------------*/
+@import "pages/home";
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+@import "pages/blog";
+
+
+
+/*--------------------------------------------------------------
+# Recipes Main
+--------------------------------------------------------------*/
+@import "pages/recipes-main";
+
+/*--------------------------------------------------------------
+# Reviews Main
+--------------------------------------------------------------*/
+@import "pages/reviews-main";
+
+
+/*--------------------------------------------------------------
+# Mailchimp Forms
+--------------------------------------------------------------*/
+@import "sign-up/form-1";
+

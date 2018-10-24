@@ -1,0 +1,99 @@
+.social-media-content {
+    width: 75%;
+    margin: 0 auto;
+    flex-direction: row;
+
+    @media (max-width: 1400px) {
+        width: 95%;
+    }
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+    }
+}
+
+.social-media-container {
+    width: 50%;
+
+    @media (max-width: 600px) {
+        width: 100%;
+    }
+}
+
+
+.social-follow h4{
+    font-size: 2em;
+    margin: 1rem 0;
+
+    @media (max-width: 1000px) {
+        font-size: 1.5em;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 1.25em;
+    }
+}
+
+.soc {
+    display: block;
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 48px;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.soc li {
+    display: inline-block;
+    margin: 0.875rem;
+
+    @media (max-width: 500px) {
+        margin: 0.5rem;
+    }
+}
+
+.soc a, .soc svg {
+    display: block;
+}
+.soc a {
+    position: relative;
+    height: 2.75rem;
+    width: 2.75rem;
+
+    @media (max-width: 1000px) {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    @media (max-width: 500px) {
+        height: 2rem;
+        width: 2rem;
+    }
+
+
+}
+.soc svg {
+    height: 100%;
+    width: 100%;
+}
+
+.icon-color {
+    color: $color_2;
+    fill: $color_2;
+
+    &:hover {
+        background-color: $color_2;
+
+        border-radius: 100%;
+        color: white;
+        fill: white;
+
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+        transition: background-color 0.5s, transform 0.5s ease-out;
+        transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+
+    }
+}

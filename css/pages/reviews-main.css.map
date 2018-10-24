@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAiBA,iBAAkB;EAOd,MAAM,EAAE,iBAAiB;EAEzB,yBAA0B;IAT9B,iBAAkB;MAUV,MAAM,EAAE,iBAAiB;;AAKjC,uBAAwB;EACpB,MAAM,EAAE,QAAQ;EAChB,SAAS,EAAE,MAAM;EACjB,OAAO,EAAE,KAAK;EAEd,0BAA2B;IAL/B,uBAAwB;MAMhB,OAAO,EAAE,KAAK;EAGlB,0BAA2B;IAT/B,uBAAwB;MAUhB,OAAO,EAAE,OAAO",
+"sources": ["../../sass/pages/reviews-main.scss"],
+"names": [],
+"file": "reviews-main.css"
+}

@@ -1,0 +1,193 @@
+.subscribe-container {
+    // background-color: rosybrown;
+    background: rgb(49,61,65);
+    background: linear-gradient(126deg, rgba(49,61,65,1) 0%, rgba(69,88,89,1) 50%, rgba(66,98,94,1) 100%);
+
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.subscribe-form-content {
+    // background-color: aquamarine;
+    // width: 90%;
+    margin: 0 auto;
+    // padding: 0 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 80%;
+
+    @media (max-width: 1300px) {
+        padding: 0 1rem;
+    }
+
+    @media (max-width: 768px) {
+        padding: 0 2rem;
+        flex-direction: column;
+    }
+
+    @media (max-width: 500px) {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.subscribe-headline {
+    // width: 50%;
+    // padding: 0 4rem;
+
+    @media (max-width: 830px) {
+        width: 95%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.subscribe-headline h2{
+    
+    @media (max-width: 600px) {
+        font-size: 1.25em;
+    }
+}
+
+
+form {
+    color: ivory;
+    // width: 100%;
+    // margin: 2em auto;
+    display: flex;
+
+    @media (max-width: 600px) {
+        width: 100%;
+    }
+
+    // flex-wrap: wrap;
+}
+
+.mailchimp-form-container {
+    // padding: 0 4rem;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 800px) {
+        padding: 0 2rem;
+        width: 50%;
+    }
+
+    @media (max-width: 700px) {
+        // flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+.mailchimp-email-container {
+    @media (max-width: 700px) {
+        margin: 0.25rem 0;
+    }
+}
+
+// .mailchimp-name-container {
+//     @media (max-width: 700px) {
+//         margin: 0.25rem 0;
+//     }
+// }
+
+.mailchimp-subscribe-button {
+    @media (max-width: 700px) {
+        margin: 0.25rem 0;
+    }
+}
+
+
+
+input[type=email],
+input[type=text] {
+        // border: solid 2px black;
+        border-radius: 5px;
+        background-color: white;
+        min-height: 40px;
+        min-width: 350px;
+        padding: 0 1rem;
+        // padding-left: 0.5rem;
+        // margin-left: 10px;
+        // margin-right: 10px;
+    
+    &:hover {
+        background-color: darkcyan;
+    }
+
+    &:focus {
+        background-color: navajowhite;
+        border: solid 3px black;
+    }
+
+    @media (max-width: 700px) {
+        width: 20rem;
+    }
+
+    @media (max-width: 500px) {
+        width: 18rem;
+    }
+
+    @media (max-width: 430px) {
+        width: 15rem;
+    }
+
+}
+
+.button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: solid 2px black;
+    background-color: white;
+
+    &:hover {
+        background-color: black;
+    }
+}
+
+input[type=submit] {
+    color: black;
+
+    &:hover {
+        color: white;
+    }
+}
+
+
+
+
+
+::-webkit-input-placeholder {
+    color: gray;
+}
+:focus::-webkit-input-placeholder {
+    color: black;
+}
+
+/* Firefox < 19 */
+:-moz-placeholder {
+    color: gray;
+}
+:focus:-moz-placeholder {
+    color: black;
+}
+
+/* Firefox > 19 */
+::-moz-placeholder {
+    color: gray;
+}
+:focus::-moz-placeholder {
+    color: black;
+}
+
+/* Internet Explorer 10 */
+:-ms-input-placeholder {
+    color: gray;
+}
+:focus:-ms-input-placeholder {
+    color: black;
+}

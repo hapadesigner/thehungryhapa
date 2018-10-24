@@ -1,0 +1,46 @@
+.footer-links {
+    background-color: darkorange;
+}
+
+.footer-links ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding: 0;
+}
+
+
+
+
+
+
+.social-icon img {
+    height: 1rem;
+    width: auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.social-icon-m img {
+    height: 1.5rem;
+    width: auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.social-icon-bg img {
+    height: 2rem;
+    width: auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.copyright-container {
+    background-color: $color_3;
+}
