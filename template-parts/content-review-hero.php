@@ -33,7 +33,7 @@
 
 
             <?php if( get_field('review_intro') ): ?>
-                <p class="review-intro opensans i ph2-l ph1 pv2"><?php the_field('review_intro'); ?></p>
+                <p class=""><?php the_field('review_intro'); ?></p>
             <?php endif; ?>
         </div>
 

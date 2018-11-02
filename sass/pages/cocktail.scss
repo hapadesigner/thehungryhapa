@@ -39,6 +39,7 @@
 
 .recipe-hero-content p{
     font-size: 1rem;
+    font-family: 'Open Sans';
 
     @media (max-width: 600px) {
         font-size: 0.875em;
@@ -196,7 +197,7 @@
 }
 
 .recipe-directions-container {
-    margin: 5em 0;
+    margin: 3em 0;
 
     @media (max-width: 900px) {
         margin: 1.5rem 0;

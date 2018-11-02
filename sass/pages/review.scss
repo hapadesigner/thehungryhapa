@@ -22,6 +22,10 @@
     @media (max-width: 975px) {
         height: 40vh;
     }
+    
+    @media (max-width: 975px) {
+        height: 25vh;
+    }
 
 }
 
@@ -63,6 +67,8 @@
 }
 
 .review-hero-content p {
+    font-family: 'Open Sans';
+
     @media (max-width: 700px) {
         font-size: 0.875rem;
         font-weight: 500;
@@ -108,11 +114,6 @@
 }
 
 
-
-.review-intro {
-    font-size: 1em;
-}
-
 .review-text {
     font-size: 1.25em;
     max-width: 800px;
@@ -144,6 +145,10 @@
 
 .gallery-image {
     margin-bottom: 3rem;
+
+    @media (max-width: 975px) {
+        margin-bottom: 1rem;
+    }
 }
 
 .gallery-image img{

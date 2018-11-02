@@ -97,3 +97,74 @@
 
     }
 }
+
+
+
+
+
+
+// icons footer
+
+.icon-color-footer {
+    color: black;
+    fill: black;
+
+    &:hover {
+        background-color: black;
+
+        border-radius: 100%;
+        color: white;
+        fill: white;
+
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+        transition: background-color 0.5s, transform 0.5s ease-out;
+        transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+
+    }
+}
+
+
+.soc-footer {
+    display: block;
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.soc-footer li {
+    display: inline-block;
+    margin: 0.25rem;
+
+    @media (max-width: 500px) {
+        margin: 0.15rem;
+    }
+}
+
+.soc-footer a, .soc-footer svg {
+    display: block;
+}
+.soc-footer a {
+    position: relative;
+    height: 1.75rem;
+    width: 1.75rem;
+
+    @media (max-width: 1000px) {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    @media (max-width: 500px) {
+        height: 2rem;
+        width: 2rem;
+    }
+
+
+}
+.soc-footer svg {
+    height: 100%;
+    width: 100%;
+}

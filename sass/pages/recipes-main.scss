@@ -125,19 +125,19 @@
 }
 
 .tab-links a:hover {
-    color: green;
+    color: rgba(69,88,89,1);
     border-bottom: solid 2.5px;
 }
 
 li.active a, li.active a:hover {
-    color: green;
+    color: rgba(69,88,89,1);
     border-bottom: solid 2.5px;
 }
 
 /*----- Content of Tabs -----*/
 .tab-content {
 	padding: 1rem;
-	box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+	// box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
     background:#fff;
     
     @media (max-width: 600px) {

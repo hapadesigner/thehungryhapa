@@ -15,38 +15,48 @@
 
 	<footer id="colophon" class="site-footer">
 
-		<div class="footer-content">
 
-			<div class="social-follow tc center">
+	<section class="footer-section">
 
-				<?php get_template_part('template-parts/social-icons'); ?>	
+		<div class="footer-section-left">
 
+			<div>
+				<img src="<?php bloginfo('template_directory');?>/images/footer-logo.svg" alt="logo"></img>
 			</div>
+			
+			<div class="soc-icon-container">
+				<?php get_template_part('template-parts/social-icons-footer'); ?>
+			</div>
+
 		</div>
 
-		<!-- <div class="footer-container w-100 border-box flex items-center justify-between pa2">
+		<div class="footer-section-right">
 
-			<div class="footer-container-content center flex">
-				<a class="f6 f5-ns ttu no-underline black" href="http://localhost:8888/about/" title="About">About</a>
-				<a class="f6 f5-ns ttu no-underline black" href="http://localhost:8888/recipes-main/" title="Privacy">Privacy</a>
-				<a class="f6 f5-ns ttu no-underline black" href="http://localhost:8888/reviews-main/" title="Terms">Terms</a>
-				<a class="f6 f5-ns ttu no-underline black" href="http://localhost:8888/blog-main/" title="Contact">Contact</a>
+			<div>
+				<ul class="footer-section-links">
+					<li class=""><a class="f6 f5-ns ttu no-underline" href="http://localhost:8888/about/" title="About">About</a></li>
+					<li class=""><a class="f6 f5-ns ttu no-underline" href="http://localhost:8888/recipes-main/" title="Privacy">Privacy</a></li>
+					<li class=""><a class="f6 f5-ns ttu no-underline" href="http://localhost:8888/reviews-main/" title="Terms">Terms</a></li>
+					<li class=""><a class="f6 f5-ns ttu no-underline" href="http://localhost:8888/blog-main/" title="Contact">Contact</a></li>
+				</ul>
 			</div>
-		</div> -->
 
-		<div class="footer-links">
-			<ul>
-				<li><a class="f6 f5-ns ttu no-underline black" href="http://localhost:8888/about/" title="About">About</a></li>
-				<li><a class="f6 f5-ns ttu no-underline black" href="http://localhost:8888/recipes-main/" title="Privacy">Privacy</a></li>
-				<li><a class="f6 f5-ns ttu no-underline black" href="http://localhost:8888/reviews-main/" title="Terms">Terms</a></li>
-				<li><a class="f6 f5-ns ttu no-underline black" href="http://localhost:8888/blog-main/" title="Contact">Contact</a></li>
-			</ul>
+			<div class="footer-disclosure">
+				<p>
+					Disclosure: The Hungry Hapa may contain sponsored content and contextual affiliate links. Affiliate links signify that we may receive a commission on sales of products that are linked to in our posts. All sponsored posts are clearly marked as such.
+				</p>
+			</div>
+
+			<div class="copyright">
+				<p class="ma0">Copyright &copy; 2018 The Hungry Hapa. All Rights Reserved.</p>
+			</div>
+
+		</div>
 		
-		</div>
+		
+	</section>
 
-		<!-- <div class="copyright-container tc text-white">
-			<p class="ma0">Copyright &copy; 2018 The Hungry Hapa. All Rights Reserved.</p>
-		</div> -->
+	
 
 	<!-- .site-info -->
 	</footer><!-- #colophon -->

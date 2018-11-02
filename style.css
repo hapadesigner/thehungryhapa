@@ -487,6 +487,62 @@
   transition: background-color 0.5s, transform 0.5s ease-out;
   transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
+.icon-color-footer {
+  color: black;
+  fill: black;
+}
+.icon-color-footer:hover {
+  background-color: black;
+  border-radius: 100%;
+  color: white;
+  fill: white;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+.soc-footer {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+.soc-footer li {
+  display: inline-block;
+  margin: 0.25rem;
+}
+@media (max-width: 500px) {
+  .soc-footer li {
+    margin: 0.15rem;
+  }
+}
+.soc-footer a, .soc-footer svg {
+  display: block;
+}
+.soc-footer a {
+  position: relative;
+  height: 1.75rem;
+  width: 1.75rem;
+}
+@media (max-width: 1000px) {
+  .soc-footer a {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+}
+@media (max-width: 500px) {
+  .soc-footer a {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+.soc-footer svg {
+  height: 100%;
+  width: 100%;
+}
 /*--------------------------------------------------------------
  # Normalize
  --------------------------------------------------------------*/
@@ -604,7 +660,7 @@ body {
 }
 .header-index {
   width: 100%;
-  padding: 1.5rem 5rem;
+  padding: 1rem 5rem;
   display: flex;
 }
 @media (max-width: 1280px) {
@@ -652,7 +708,7 @@ body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #434343, #000);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 1rem 2.5rem;
+  padding: 0.75rem 2.5rem;
   border-bottom: solid 1px ivory;
   transition: background-color 200ms linear;
   z-index: 101;
@@ -666,7 +722,7 @@ body {
 }
 .header-default {
   width: 100%;
-  padding: 1.5rem 5rem;
+  padding: 1rem 5rem;
   background: #000;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #434343, #000);
@@ -713,7 +769,7 @@ body {
   }
 }
 .header-default.default-scrolled {
-  padding: 1rem 2.5rem;
+  padding: 0.75rem 2.5rem;
   transition: background-color 200ms linear;
   z-index: 101;
 }
@@ -941,37 +997,54 @@ body {
 /*--------------------------------------------------------------
  ## Menus
  --------------------------------------------------------------*/
-.footer-links {
-  background-color: darkorange;
+.site-footer {
+  border: solid 3px rgba(0, 0, 0, 0.15);
+  margin-top: 2rem;
+  background-color: ghostwhite;
 }
-.footer-links ul {
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 90%;
+  margin: 2rem auto 2rem auto;
+}
+.footer-section img {
+  height: 90px;
+  margin-bottom: 2rem;
+}
+.footer-section h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+.soc-icon-container {
+  display: flex;
+  align-items: center;
+}
+.footer-section-links {
   list-style: none;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   padding: 0;
 }
-.social-icon img {
-  height: 1rem;
-  width: auto;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.footer-section-links li:not(:first-child) {
+  margin-left: 1rem;
 }
-.social-icon-m img {
-  height: 1.5rem;
-  width: auto;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.footer-section-link a {
+  color: black;
 }
-.social-icon-bg img {
-  height: 2rem;
-  width: auto;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.footer-section-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
-.copyright-container {
-  background-color: #3d4c51;
+.footer-disclosure p {
+  font-size: 0.875rem;
+  max-width: 28rem;
+  text-align: end;
+}
+.copyright p {
+  font-weight: 200;
+  font-size: 0.75rem;
 }
 /*--------------------------------------------------------------
  # Reviews
@@ -1001,6 +1074,11 @@ body {
 @media (max-width: 975px) {
   .review-hero {
     height: 40vh;
+  }
+}
+@media (max-width: 975px) {
+  .review-hero {
+    height: 25vh;
   }
 }
 .review-hero-image {
@@ -1044,6 +1122,9 @@ body {
     padding: 0 1rem;
   }
 }
+.review-hero-content p {
+  font-family: 'Open Sans';
+}
 @media (max-width: 700px) {
   .review-hero-content p {
     font-size: 0.875rem;
@@ -1081,9 +1162,6 @@ body {
     font-size: 2rem;
   }
 }
-.review-intro {
-  font-size: 1em;
-}
 .review-text {
   font-size: 1.25em;
   max-width: 800px;
@@ -1113,6 +1191,11 @@ body {
 }
 .gallery-image {
   margin-bottom: 3rem;
+}
+@media (max-width: 975px) {
+  .gallery-image {
+    margin-bottom: 1rem;
+  }
 }
 .gallery-image img {
   width: 100% !important;
@@ -1230,6 +1313,7 @@ body {
 }
 .recipe-hero-content p {
   font-size: 1rem;
+  font-family: 'Open Sans';
 }
 @media (max-width: 600px) {
   .recipe-hero-content p {
@@ -1380,7 +1464,7 @@ body {
   }
 }
 .recipe-directions-container {
-  margin: 5em 0;
+  margin: 3em 0;
 }
 @media (max-width: 900px) {
   .recipe-directions-container {
@@ -1997,20 +2081,20 @@ body {
   }
 }
 .instafeed {
-  position: relative;
-  padding: 2rem 2rem 3rem 2rem;
+  padding: 2rem 1rem 3rem 1rem;
   margin-top: 3rem;
 }
 @media (max-width: 700px) {
   .instafeed {
-    padding: 2rem 2rem 3rem 2rem;
+    padding: 2rem 1rem 3rem 1rem;
   }
 }
 .instafeed h2 {
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 1rem auto;
   color: #232020;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 300;
+  font-family: 'Karla';
 }
 @media (max-width: 700px) {
   .instafeed h2 {
@@ -2020,16 +2104,41 @@ body {
 .instafeed-photos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
+  grid-gap: 1rem;
 }
 @media (max-width: 700px) {
   .instafeed-photos {
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
 }
 .instafeed-photos img {
   max-height: 400px;
+}
+.follow-instagram {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 420px) {
+  .follow-instagram {
+    display: block;
+  }
+}
+.instagram-divider {
+  display: inline-block;
+  padding: 0 10px;
+}
+@media (max-width: 420px) {
+  .instagram-divider {
+    display: none;
+  }
+}
+@media (max-width: 420px) {
+  .hashtag {
+    display: none;
+  }
 }
 /*--------------------------------------------------------------
  # Blog
@@ -2205,17 +2314,16 @@ body {
   }
 }
 .tab-links a:hover {
-  color: green;
+  color: rgba(69, 88, 89, 1);
   border-bottom: solid 2.5px;
 }
 li.active a, li.active a:hover {
-  color: green;
+  color: rgba(69, 88, 89, 1);
   border-bottom: solid 2.5px;
 }
 /*----- Content of Tabs -----*/
 .tab-content {
   padding: 1rem;
-  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
   background: #fff;
 }
 @media (max-width: 600px) {
@@ -2274,6 +2382,7 @@ li.active a, li.active a:hover {
 @media (max-width: 1300px) {
   .subscribe-form-content {
     padding: 0 1rem;
+    width: 90%;
   }
 }
 @media (max-width: 768px) {
@@ -2295,7 +2404,7 @@ li.active a, li.active a:hover {
     margin: 0 auto;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
   .subscribe-headline h2 {
     font-size: 1.25em;
   }

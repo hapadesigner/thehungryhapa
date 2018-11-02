@@ -1,8 +1,8 @@
-<div class="social-media-content flex justify-center items-center">
+<h3>
+    connect with me on social media
+</h3>
 
-    <div class="social-media-container">
-        <h4 class="karla">Connect On Social Media:</h4>
-    </div>
+<div class="social-media-content flex justify-center items-center">
 
     <div class="social-media-container">
         <ul class="soc">

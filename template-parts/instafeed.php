@@ -1,22 +1,20 @@
-<!-- <h2 class="tc mw6 center instafeed-title">
-    Follow The Hungry Hapa on Instagram!
-</h2>
-<div class="instafeed">
-    Loading...
-</div> -->
-
-
 
 
 <section class="instafeed">
-    <h2 class="tc mw6 center">
-        Follow The Hungry Hapa on Instagram!
-    </h2>
+    <div>
+        <h2 class="tc mw6 center">
+            Follow Me on Instagram!
+        </h2>
+    </div>
+
+    <div class="follow-instagram">
+        <a href="https://www.instagram.com/the_hungryhapa/">@the_hungryhapa</a>
+        <span class="instagram-divider">|</span>
+        <a class="hashtag" href="https://www.instagram.com/explore/tags/thehungryhapa/">#thehungryhapa</a>
+    </div>
+
     <div class="instafeed-photos">
         Loading...
     </div>
 
-    <!--  <h2 class="tc mw6 center instafeed-title">
-     Follow The Hungry Hapa on Instagram!
-    </h2> -->
 </section>

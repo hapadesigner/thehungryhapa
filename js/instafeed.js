@@ -8,7 +8,7 @@ const fetchFromInstagram = function () {
     return fetch(apiUrl)
         .then(response => response.json())
         .then(data => {
-            return data.data.slice(0, 4).map(post => {
+            return data.data.slice(0, 6).map(post => {
                 return {
                     link: post.link,
                     image: post.images.standard_resolution.url
