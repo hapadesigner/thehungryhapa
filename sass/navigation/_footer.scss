@@ -1,7 +1,14 @@
 .site-footer {
     border: solid 3px rgba(0,0,0,0.15);
-    margin-top: 2rem;
-    background-color: ghostwhite;
+    // margin-top: 2rem;
+
+    background-color: #2C3B4B;
+
+    // background: linear-gradient(126deg, rgba(49, 61, 65, 1) 0%, rgba(69, 88, 89, 1) 50%, rgba(66, 98, 94, 1) 100%);
+
+    // background: #000000;  /* fallback for old browsers */
+	// background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	// background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .footer-section {
@@ -22,6 +29,7 @@
 .footer-section h3 {
     font-size: 1.25rem;
     margin: 0;
+    color: #fffff4;
 }
 
 .soc-icon-container {
@@ -34,6 +42,17 @@
     list-style: none;
     display: flex;
     padding: 0;
+    
+}
+
+.footer-section-links a {
+    // color: black;
+    color: #fffff4;
+
+    :visited {
+        // color: black;
+        color: #fffff4;
+    }
 }
 
 .footer-section-links li:not(:first-child) {
@@ -41,7 +60,8 @@
 }
 
 .footer-section-link a {
-    color: black;
+    // color: black;
+    color: #fffff4;
 }
 
 .footer-section-right {
@@ -50,14 +70,20 @@
     align-items: flex-end;
 }
 
+
+
 .footer-disclosure p{
     font-size: 0.875rem;
     max-width: 28rem;
     text-align: end;
+    color: #fffff4;
 }
 
 
 .copyright p {
     font-weight: 200;
     font-size: 0.75rem;
+    margin: 4rem auto 1rem auto;
+    text-align: center;
+    color: #fffff4;
 }

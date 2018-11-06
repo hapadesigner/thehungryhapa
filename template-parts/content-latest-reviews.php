@@ -3,7 +3,7 @@
 
 <div class="latest-reviews pv5-l pv3">
     <div class="home-section-title flex mv1 justify-between items-center ph4">
-        <h2 class="latest-header-lg karla text-white mv4">Latest Reviews</h2>
+        <h2 class="latest-header-lg karla mv4">Latest Reviews</h2>
         <button class="custom-btn btn-2 db link ttu"><span>See More &rarr;</span>
     </div>
 

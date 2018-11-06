@@ -25,6 +25,7 @@
     font-size: 2em;
     margin: 1rem 0;
 
+
     @media (max-width: 1000px) {
         font-size: 1.5em;
     }
@@ -106,8 +107,8 @@
 // icons footer
 
 .icon-color-footer {
-    color: black;
-    fill: black;
+    color: #fffff4;
+    fill: #fffff4;
 
     &:hover {
         background-color: black;

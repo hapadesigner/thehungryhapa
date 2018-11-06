@@ -16,12 +16,12 @@
 	<footer id="colophon" class="site-footer">
 
 
-	<section class="footer-section">
+	<div class="footer-section">
 
 		<div class="footer-section-left">
 
 			<div>
-				<img src="<?php bloginfo('template_directory');?>/images/footer-logo.svg" alt="logo"></img>
+				<img src="<?php bloginfo('template_directory');?>/images/footer-logo-white.svg" alt="logo"></img>
 			</div>
 			
 			<div class="soc-icon-container">
@@ -47,15 +47,13 @@
 				</p>
 			</div>
 
-			<div class="copyright">
-				<p class="ma0">Copyright &copy; 2018 The Hungry Hapa. All Rights Reserved.</p>
-			</div>
-
 		</div>
 		
-		
-	</section>
+	</div>
 
+	<div class="copyright">
+		<p class="ma0">Copyright &copy; 2018 The Hungry Hapa LLC. All Rights Reserved.</p>
+	</div>
 	
 
 	<!-- .site-info -->

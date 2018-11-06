@@ -39,7 +39,6 @@
  ## Galleries
  --------------------------------------------------------------*/
 .circle {
-  background-color: white;
   border-radius: 5px;
   position: relative;
   max-width: 350px;
@@ -122,6 +121,7 @@
   }
 }
 .circle-button {
+  background-color: #fffff4;
   position: absolute;
   bottom: 0%;
   left: 50%;
@@ -488,8 +488,8 @@
   transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
 .icon-color-footer {
-  color: black;
-  fill: black;
+  color: #fffff4;
+  fill: #fffff4;
 }
 .icon-color-footer:hover {
   background-color: black;
@@ -563,6 +563,7 @@ body, html {
   width: 100%;
   font-size: 18px;
   overflow-x: hidden;
+  background-color: #fffff4;
   line-height: 1.5;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -702,12 +703,7 @@ body {
   }
 }
 .header-index.scrolled {
-  background: #000;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #434343, #000);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #434343, #000);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #2c3b4b;
   padding: 0.75rem 2.5rem;
   border-bottom: solid 1px ivory;
   transition: background-color 200ms linear;
@@ -999,8 +995,7 @@ body {
  --------------------------------------------------------------*/
 .site-footer {
   border: solid 3px rgba(0, 0, 0, 0.15);
-  margin-top: 2rem;
-  background-color: ghostwhite;
+  background-color: #2c3b4b;
 }
 .footer-section {
   display: flex;
@@ -1016,6 +1011,7 @@ body {
 .footer-section h3 {
   font-size: 1.25rem;
   margin: 0;
+  color: #fffff4;
 }
 .soc-icon-container {
   display: flex;
@@ -1026,11 +1022,17 @@ body {
   display: flex;
   padding: 0;
 }
+.footer-section-links a {
+  color: #fffff4;
+}
+.footer-section-links a :visited {
+  color: #fffff4;
+}
 .footer-section-links li:not(:first-child) {
   margin-left: 1rem;
 }
 .footer-section-link a {
-  color: black;
+  color: #fffff4;
 }
 .footer-section-right {
   display: flex;
@@ -1041,10 +1043,14 @@ body {
   font-size: 0.875rem;
   max-width: 28rem;
   text-align: end;
+  color: #fffff4;
 }
 .copyright p {
   font-weight: 200;
   font-size: 0.75rem;
+  margin: 4rem auto 1rem auto;
+  text-align: center;
+  color: #fffff4;
 }
 /*--------------------------------------------------------------
  # Reviews
@@ -1848,8 +1854,7 @@ body {
   }
 }
 .about-me {
-  background: #313d41;
-  background: linear-gradient(126deg, rgba(49, 61, 65, 1) 0%, rgba(69, 88, 89, 1) 50%, rgba(66, 98, 94, 1) 100%);
+  background-color: #2c3b4b;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin: 4em 0 2em 0;
@@ -2031,8 +2036,7 @@ body {
   }
 }
 .latest-reviews-container {
-  background: #23191e;
-  background: linear-gradient(126deg, rgba(35, 25, 30, 1) 0%, rgba(69, 44, 46, 1) 50%, rgba(107, 73, 71, 1) 100%);
+  background-color: #2c3b4b;
   -webkit-clip-path: polygon(0 8%, 100% 0, 92% 100%, 0 100%);
   clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
 }
@@ -2063,7 +2067,7 @@ body {
   }
 }
 .latest-reviews-container a {
-  color: ivory;
+  color: #fffff4;
 }
 .latest-reviews-container a:hover {
   color: coral;
@@ -2071,6 +2075,9 @@ body {
 .latest-reviews-container a:hover .latest-item-bg {
   transform: scale(1.05);
   transition: transform 1s ease-in-out;
+}
+.latest-reviews h2 {
+  color: #fffff4;
 }
 .aspect-custom-1 {
   padding-bottom: 105%;
@@ -2081,8 +2088,8 @@ body {
   }
 }
 .instafeed {
-  padding: 2rem 1rem 3rem 1rem;
-  margin-top: 3rem;
+  background-color: #fffff4;
+  padding: 4rem 1rem 4rem 1rem;
 }
 @media (max-width: 700px) {
   .instafeed {
@@ -2367,8 +2374,7 @@ li.active a, li.active a:hover {
  # Mailchimp Forms
  --------------------------------------------------------------*/
 .subscribe-container {
-  background: #313d41;
-  background: linear-gradient(126deg, rgba(49, 61, 65, 1) 0%, rgba(69, 88, 89, 1) 50%, rgba(66, 98, 94, 1) 100%);
+  background-color: #2c3b4b;
   padding: 1rem 0;
   margin: 0 auto;
 }
