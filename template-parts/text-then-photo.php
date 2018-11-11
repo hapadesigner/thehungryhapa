@@ -3,7 +3,7 @@
 
 
 
-    <div class="karla pv4 center reverse-small flex flex-wrap justify-between items-center">
+    <div class="karla pv2 center reverse-small flex flex-wrap justify-between items-center">
 
         <div class="item-text">
             <?php the_sub_field('text_left'); ?>           

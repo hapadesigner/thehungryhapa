@@ -1,5 +1,5 @@
-<h2 class="ph4 tc ttu">More Recipes</h2>
-<div class="more-cocktails-container flex flex-wrap center mw8">
+<h2 class="tc ttu">More Recipes</h2>
+<div class="more-cocktails-container flex flex-wrap center">
         <?php 
 
             $args = array(
@@ -19,7 +19,7 @@
                         <div class="aspect-ratio--object cover bg-center flex items-center justify-center br-100 shadow-1" style="background: url('<?php echo $background[0]; ?>') no-repeat;"></div>
                     </div>
 
-                    <p class="recent-cocktails-titles black mv3 ttu tracked ph4-l ph3 tc lh-title">
+                    <p class="recent-cocktails-titles black ttu tracked tc lh-title">
                         <?php the_title(); ?>
                     </p>
 

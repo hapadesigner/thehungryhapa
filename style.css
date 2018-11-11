@@ -68,12 +68,24 @@
 }
 .circle-image {
   border-radius: 100%;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin: 0 auto;
   transition: transform 0.5s ease-in-out;
 }
+@media (max-width: 1400px) {
+  .circle-image {
+    width: 300px;
+    height: 300px;
+  }
+}
 @media (max-width: 1200px) {
+  .circle-image {
+    width: 275px;
+    height: 275px;
+  }
+}
+@media (max-width: 1050px) {
   .circle-image {
     width: 250px;
     height: 250px;
@@ -164,7 +176,7 @@
   }
 }
 .card {
-  background-color: white;
+  background-color: #fffff4;
   border-radius: 5px;
   position: relative;
   margin-bottom: 6em;
@@ -176,13 +188,8 @@
 }
 .card-image {
   width: 100%;
-  height: 250px;
+  height: 300px;
   border-radius: 5px;
-}
-@media (max-width: 700px) {
-  .card-image {
-    height: 300px;
-  }
 }
 @media (max-width: 475px) {
   .card-image {
@@ -211,6 +218,7 @@
   font-size: 0.875em;
 }
 .card-button {
+  background-color: #fffff4;
   position: absolute;
   bottom: 0%;
   left: 0%;
@@ -492,10 +500,10 @@
   fill: #fffff4;
 }
 .icon-color-footer:hover {
-  background-color: black;
+  background-color: #fffff4;
   border-radius: 100%;
-  color: white;
-  fill: white;
+  color: #2c4b4b;
+  fill: #2c4b4b;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
@@ -506,9 +514,14 @@
   display: block;
   font-size: 0;
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 1rem;
   text-align: center;
   padding: 0;
+}
+@media (max-width: 1100px) {
+  .soc-footer {
+    margin-left: 0.5rem;
+  }
 }
 .soc-footer li {
   display: inline-block;
@@ -527,16 +540,16 @@
   height: 1.75rem;
   width: 1.75rem;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
+  .soc-footer a {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+}
+@media (max-width: 925px) {
   .soc-footer a {
     height: 2.25rem;
     width: 2.25rem;
-  }
-}
-@media (max-width: 500px) {
-  .soc-footer a {
-    height: 2rem;
-    width: 2rem;
   }
 }
 .soc-footer svg {
@@ -608,10 +621,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
 }
-.lora {
-  font-family: 'Lora', serif;
-}
 .section-title-left {
+  font-family: 'Playfair Display', serif;
   margin: 3rem auto 1rem auto;
   padding: 0 2rem;
   max-width: 1000px;
@@ -620,12 +631,25 @@ body {
   margin: 0;
 }
 .item-text h2 {
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
+  margin: 1rem 0 0.75rem 0;
+}
+@media (max-width: 1000px) {
+  .item-text h2 {
+    margin: 0.5rem 0 0.5rem 0;
+  }
 }
 .item-text h4 {
   font-size: 1rem;
-  font-family: 'Playfair Display', serif;
-  margin: 1rem 0 2rem 0;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  margin: 1rem 0 1.5rem 0;
+}
+@media (max-width: 1000px) {
+  .item-text h4 {
+    margin: 0.5rem 0 1rem 0;
+  }
 }
 /*--------------------------------------------------------------
  # Navigation
@@ -703,7 +727,7 @@ body {
   }
 }
 .header-index.scrolled {
-  background-color: #2c3b4b;
+  background-color: #2c4b4b;
   padding: 0.75rem 2.5rem;
   border-bottom: solid 1px ivory;
   transition: background-color 200ms linear;
@@ -719,12 +743,7 @@ body {
 .header-default {
   width: 100%;
   padding: 1rem 5rem;
-  background: #000;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #434343, #000);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #434343, #000);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #2c4b4b;
   display: flex;
   z-index: 101;
   box-shadow: 0px 15px 10px -15px #808080;
@@ -738,7 +757,7 @@ body {
 .nav-default a {
   font-size: 1.25rem;
   margin: 0 0.5rem;
-  color: white;
+  color: ivory;
   transition: all 0.3s;
 }
 .nav-default a:hover {
@@ -779,12 +798,7 @@ body {
   width: 100%;
   padding: 1rem 2rem;
   display: none;
-  background: #000;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #434343, #000);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #434343, #000);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #2c4b4b;
   z-index: 102;
 }
 @media (max-width: 1024px) {
@@ -995,7 +1009,11 @@ body {
  --------------------------------------------------------------*/
 .site-footer {
   border: solid 3px rgba(0, 0, 0, 0.15);
-  background-color: #2c3b4b;
+  background-color: #2c4b4b;
+  margin-top: 3rem;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
 }
 .footer-section {
   display: flex;
@@ -1004,18 +1022,49 @@ body {
   width: 90%;
   margin: 2rem auto 2rem auto;
 }
+@media (max-width: 925px) {
+  .footer-section {
+    flex-direction: column;
+  }
+}
 .footer-section img {
   height: 90px;
   margin-bottom: 2rem;
 }
+@media (max-width: 1100px) {
+  .footer-section img {
+    height: 60px;
+  }
+}
+@media (max-width: 925px) {
+  .footer-section img {
+    display: none;
+  }
+}
 .footer-section h3 {
   font-size: 1.25rem;
+  font-family: 'Karla';
   margin: 0;
   color: #fffff4;
+}
+@media (max-width: 1100px) {
+  .footer-section h3 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 925px) {
+  .footer-section h3 {
+    display: none;
+  }
 }
 .soc-icon-container {
   display: flex;
   align-items: center;
+}
+@media (max-width: 925px) {
+  .soc-icon-container {
+    flex-direction: column;
+  }
 }
 .footer-section-links {
   list-style: none;
@@ -1034,16 +1083,42 @@ body {
 .footer-section-link a {
   color: #fffff4;
 }
+@media (max-width: 925px) {
+  .footer-section-left {
+    margin: 0 auto;
+  }
+}
 .footer-section-right {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+@media (max-width: 925px) {
+  .footer-section-right {
+    margin: 1rem auto;
+    align-items: center;
+  }
 }
 .footer-disclosure p {
   font-size: 0.875rem;
   max-width: 28rem;
   text-align: end;
   color: #fffff4;
+  font-style: italic;
+}
+@media (max-width: 1100px) {
+  .footer-disclosure p {
+    font-size: 0.65rem;
+    max-width: 22rem;
+  }
+}
+@media (max-width: 925px) {
+  .footer-disclosure p {
+    text-align: center;
+    max-width: none;
+    font-size: 0.875rem;
+    font-family: 'Karla';
+  }
 }
 .copyright p {
   font-weight: 200;
@@ -1051,6 +1126,11 @@ body {
   margin: 4rem auto 1rem auto;
   text-align: center;
   color: #fffff4;
+}
+@media (max-width: 925px) {
+  .copyright p {
+    margin: 2rem auto 1rem auto;
+  }
 }
 /*--------------------------------------------------------------
  # Reviews
@@ -1128,14 +1208,15 @@ body {
     padding: 0 1rem;
   }
 }
-.review-hero-content p {
-  font-family: 'Open Sans';
-}
 @media (max-width: 700px) {
   .review-hero-content p {
     font-size: 0.875rem;
     font-weight: 500;
   }
+}
+.review-intro {
+  font-family: 'Montserrat';
+  font-weight: 100;
 }
 .heading {
   color: black;
@@ -1162,6 +1243,9 @@ body {
 .review-date {
   margin-bottom: 0;
   font-size: 1.1rem;
+}
+.review-title {
+  font-family: 'Playfair Display', serif;
 }
 @media (max-width: 1080px) {
   .review-title {
@@ -1218,7 +1302,7 @@ body {
   margin-top: 8rem;
 }
 .items-container {
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
   max-width: 1000px;
 }
 @media (max-width: 1000px) {
@@ -1267,6 +1351,7 @@ body {
 }
 .item-text p {
   max-width: 500px;
+  font-family: 'Karla', sans-serif;
 }
 @media (max-width: 800px) {
   .reverse-small {
@@ -1318,8 +1403,8 @@ body {
   }
 }
 .recipe-hero-content p {
-  font-size: 1rem;
-  font-family: 'Open Sans';
+  font-size: 1.15rem;
+  font-family: 'Karla';
 }
 @media (max-width: 600px) {
   .recipe-hero-content p {
@@ -1381,9 +1466,10 @@ body {
   .about-container {
     width: 90%;
     margin: 1rem auto;
+    padding: 0 2rem;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .about-container {
     width: 95%;
     padding: 0 0.5rem;
@@ -1394,7 +1480,7 @@ body {
   margin: 2rem auto;
 }
 .about-recipe-text {
-  margin: 3rem 0;
+  margin: 1.5rem 0;
 }
 .about-recipe-text h3 {
   font-size: 1.5rem;
@@ -1408,8 +1494,9 @@ body {
   }
 }
 .message-box {
-  border: 3px solid black;
+  border: 2px solid #2c4b4b;
   width: 70vw;
+  max-width: 1000px;
 }
 @media (max-width: 900px) {
   .message-box {
@@ -1423,14 +1510,26 @@ body {
 }
 .message-box-content {
   padding: 1rem 2rem;
+  border: solid 2px #2c4b4b;
 }
 @media (max-width: 700px) {
   .message-box-content {
     padding: 0.25rem 0.25rem;
   }
 }
+.message-box h3 {
+  font-family: 'Karla';
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
 .message-box p {
   font-size: 1.25rem;
+  font-family: 'karla';
+}
+@media (max-width: 1000px) {
+  .message-box p {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 700px) {
   .message-box p {
@@ -1445,7 +1544,7 @@ body {
   border-radius: 5px;
 }
 .recipe-directions-section {
-  background-color: white;
+  background-color: #fffff4;
   max-width: 1300px;
   margin: 5rem auto;
   padding: 2em 3em;
@@ -1510,11 +1609,6 @@ body {
 .lists-ingredients-container {
   width: 40%;
 }
-@media (max-width: 1000px) {
-  .lists-ingredients-container {
-    width: 100%;
-  }
-}
 .lists-steps-container {
   width: 60%;
 }
@@ -1554,6 +1648,12 @@ body {
 .lists-ingredients li {
   margin-bottom: 1em;
   max-width: 12rem;
+  font-family: 'Karla', sans-serif;
+}
+@media (max-width: 1000px) {
+  .lists-ingredients li {
+    font-size: 0.875rem;
+  }
 }
 .lists-steps {
   display: flex;
@@ -1622,12 +1722,33 @@ body {
   color: white;
   background-color: #e9692c;
 }
+@media (max-width: 1000px) {
+  .recipe-directions-circle {
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 850px) {
+  .recipe-directions-circle {
+    height: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    margin-right: 0.75rem;
+  }
+}
 @media (max-width: 650px) {
   .recipe-directions-circle {
     height: 1.75em;
     width: 1.75em;
     line-height: 1.75em;
     margin-right: 1rem;
+  }
+}
+.step-number {
+  font-size: 1rem;
+}
+@media (max-width: 850px) {
+  .step-number {
+    font-size: 0.875rem;
   }
 }
 .direction-list li {
@@ -1645,7 +1766,24 @@ body {
   }
 }
 .recipe-direction-step p {
-  max-width: 25rem;
+  max-width: 32rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.15rem;
+}
+@media (max-width: 1300px) {
+  .recipe-direction-step p {
+    max-width: 25rem;
+  }
+}
+@media (max-width: 1050px) {
+  .recipe-direction-step p {
+    max-width: 22rem;
+  }
+}
+@media (max-width: 1000px) {
+  .recipe-direction-step p {
+    font-size: 0.875rem;
+  }
 }
 @media (max-width: 650px) {
   .recipe-direction-step p {
@@ -1658,10 +1796,20 @@ body {
   padding-bottom: 3px;
   border-bottom: solid 3px;
 }
+@media (max-width: 1000px) {
+  .recipe-directions-container h2 {
+    font-size: 1.5rem;
+  }
+}
 .recipe-directions-container h4 {
   font-family: 'lora', sans-serif;
   font-size: 1.2em;
   font-weight: 700;
+}
+@media (max-width: 1000px) {
+  .recipe-directions-container h4 {
+    font-size: 1rem;
+  }
 }
 .stp-btn {
   padding: 0.5rem 1rem;
@@ -1671,15 +1819,23 @@ body {
 .stp-btn a {
   color: white;
 }
+.more-recipe {
+  margin: 7rem auto;
+}
 .more-cocktails-container {
-  padding: 0 1rem;
-  margin: 3rem auto;
+  padding: 0 2rem;
+  margin: 4rem auto;
+  max-width: 1440px;
 }
 .recent-cocktails-titles {
   font-size: 1.25rem;
   font-weight: 600;
   font-family: 'Karla', sans-serif;
-  margin-bottom: 3em;
+}
+@media (max-width: 1000px) {
+  .recent-cocktails-titles {
+    font-size: 1.15rem;
+  }
 }
 /*--------------------------------------------------------------
  # Home
@@ -1787,6 +1943,7 @@ body {
 }
 .home-section-header {
   font-size: 3em;
+  font-family: 'Playfair Display', serif;
 }
 @media (max-width: 768px) {
   .home-section-header {
@@ -1816,7 +1973,7 @@ body {
 .latest-container {
   margin-left: auto;
   margin-right: auto;
-  padding: 0 6em;
+  padding: 0 2em;
 }
 @media (max-width: 1300px) {
   .latest-container {
@@ -1854,7 +2011,7 @@ body {
   }
 }
 .about-me {
-  background-color: #2c3b4b;
+  background-color: #2c4b4b;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin: 4em 0 2em 0;
@@ -1906,6 +2063,9 @@ body {
   .home-about-text h2 {
     text-align: center;
   }
+}
+.home-about-text p {
+  font-family: 'Karla';
 }
 @media (max-width: 900px) {
   .home-about-text p {
@@ -1964,7 +2124,7 @@ body {
 }
 .latest-recipe-container {
   color: black;
-  max-width: 1380px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 6em;
 }
@@ -1990,6 +2150,7 @@ body {
 }
 .home-section-title h2 {
   font-size: 3em;
+  font-family: 'Playfair Display', serif;
 }
 @media (max-width: 900px) {
   .home-section-title h2 {
@@ -2017,13 +2178,11 @@ body {
     font-size: 1.5em;
   }
 }
-.latest-item-width {
-  width: 25%;
+.latest-items-container {
+  height: 300px;
 }
-@media (max-width: 1200px) {
-  .latest-item-width {
-    width: 30%;
-  }
+.latest-item-width {
+  width: 30%;
 }
 @media (max-width: 700px) {
   .latest-item-width {
@@ -2036,7 +2195,7 @@ body {
   }
 }
 .latest-reviews-container {
-  background-color: #2c3b4b;
+  background-color: #2c4b4b;
   -webkit-clip-path: polygon(0 8%, 100% 0, 92% 100%, 0 100%);
   clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
 }
@@ -2047,7 +2206,7 @@ body {
   }
 }
 .latest-reviews {
-  max-width: 1380px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 3em 6em;
 }
@@ -2079,14 +2238,6 @@ body {
 .latest-reviews h2 {
   color: #fffff4;
 }
-.aspect-custom-1 {
-  padding-bottom: 105%;
-}
-@media (max-width: 700px) {
-  .aspect-custom-1 {
-    padding-bottom: 70%;
-  }
-}
 .instafeed {
   background-color: #fffff4;
   padding: 4rem 1rem 4rem 1rem;
@@ -2110,10 +2261,10 @@ body {
 }
 .instafeed-photos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   width: 100%;
   margin: 0 auto;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
 }
 @media (max-width: 700px) {
   .instafeed-photos {
@@ -2132,6 +2283,13 @@ body {
   .follow-instagram {
     display: block;
   }
+}
+.follow-instagram a {
+  color: #232020;
+  text-decoration: none;
+}
+.follow-instagram a :visited {
+  color: #232020;
 }
 .instagram-divider {
   display: inline-block;
@@ -2261,6 +2419,7 @@ body {
 .recipe-tabs {
   width: 100%;
   display: inline-block;
+  background-color: #fffff4;
 }
 /*----- Tab Links -----*/
 .tab-links {
@@ -2269,6 +2428,7 @@ body {
   width: 50%;
   margin: 4em auto 1.5em auto;
   padding: 0;
+  max-width: 700px;
 }
 @media (max-width: 1100px) {
   .tab-links {
@@ -2331,7 +2491,6 @@ li.active a, li.active a:hover {
 /*----- Content of Tabs -----*/
 .tab-content {
   padding: 1rem;
-  background: #fff;
 }
 @media (max-width: 600px) {
   .tab-content {
@@ -2357,24 +2516,14 @@ li.active a, li.active a:hover {
 }
 .main-reviews-container {
   margin: 6em auto;
-  max-width: 1400px;
-  padding: 0 4em;
-}
-@media (max-width: 1200px) {
-  .main-reviews-container {
-    padding: 0 3em;
-  }
-}
-@media (max-width: 1050px) {
-  .main-reviews-container {
-    padding: 0 1.5em;
-  }
+  max-width: 1440px;
+  padding: 0 2em;
 }
 /*--------------------------------------------------------------
  # Mailchimp Forms
  --------------------------------------------------------------*/
 .subscribe-container {
-  background-color: #2c3b4b;
+  background-color: #2c4b4b;
   padding: 1rem 0;
   margin: 0 auto;
 }

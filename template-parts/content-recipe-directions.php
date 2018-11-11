@@ -79,7 +79,7 @@
                         <?php if(get_sub_field('step_number')) : ?>
 
                         <div class="recipe-directions-circle">
-                            <span class="mb0 karla">
+                            <span class="mb0 karla step-number">
                                 <?php the_sub_field('step_number'); ?>
                             </span>
                         </div>

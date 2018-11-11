@@ -33,7 +33,7 @@
 
 
             <?php if( get_field('review_intro') ): ?>
-                <p class=""><?php the_field('review_intro'); ?></p>
+                <h5><?php the_field('review_intro'); ?></h5>
             <?php endif; ?>
         </div>
 

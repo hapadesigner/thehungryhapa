@@ -1,7 +1,7 @@
 <section class="latest-recipe-container pv1">
 
 <div class="latest-recipes skew-offset-1">
-    <div class="home-section-title flex mv1 justify-between items-center mh2">
+    <div class="home-section-title flex mv1 justify-between items-center">
         <h2 class="latest-header-lg karla mv4">Latest Blog Posts</h2>
         <button class="custom-btn btn-1 db link ttu"><span>See More &rarr;</span>
     </div>
@@ -20,8 +20,8 @@
 
                 <?php $background = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'small' );?>
 
-                 <a class="latest-item-width db link mb4 center" href="<?php the_permalink();?>">
-                    <div class="shadow-6 aspect-ratio aspect-custom-1">
+                 <a class="latest-item-width db link mb4" href="<?php the_permalink();?>">
+                    <div class="latest-items-container shadow-6 aspect-ratio aspect-ratio--16x9">
                         <div class="latest-item-bg br1 aspect-ratio--object cover bg-center flex items-center justify-center" style="background: url('<?php echo $background[0]; ?>') no-repeat;"></div>
                     </div>
 

@@ -10,7 +10,7 @@
             <?php the_field('recipe_title'); ?> 
         </h2>
 
-        <p class="recipe-intro-text opensans mt1 ph2 center">
+        <p class="">
             <?php the_field('recipe_intro'); ?> 
         </p>
     </div>
@@ -88,14 +88,14 @@ endwhile; endif; ?>
 
 <div class="message-box tc mh2 pa2 mv4 center">
     <div class="message-box-content">
-        <h3 class="mb1">Did you try this recipe?</h3>
+        <h3 class="">Did you try this recipe?</h3>
         <p class="mt1 i">Please let me know what you think!</p>
         <p><a>Leave a comment</a> below or share a photo on <a>instagram</a> with the hashtag #thehungryhapa.</p>
     </div>
 </div>
 
 
-<div class="mv5">
+<div class="more-recipe">
     <?php get_template_part('template-parts/content-cocktail-more'); ?> 
 </div>
 

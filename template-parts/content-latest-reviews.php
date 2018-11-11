@@ -2,7 +2,7 @@
 <section class="latest-reviews-container">
 
 <div class="latest-reviews pv5-l pv3">
-    <div class="home-section-title flex mv1 justify-between items-center ph4">
+    <div class="home-section-title flex mv1 justify-between items-center">
         <h2 class="latest-header-lg karla mv4">Latest Reviews</h2>
         <button class="custom-btn btn-2 db link ttu"><span>See More &rarr;</span>
     </div>
@@ -21,8 +21,8 @@
 
                 <?php $background = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'small' );?>
 
-                 <a class="latest-item-width db link mb4 center" href="<?php the_permalink();?>">
-                    <div class="shadow-7 aspect-ratio aspect-custom-1">
+                 <a class="latest-item-width db link mb4" href="<?php the_permalink();?>">
+                    <div class="latest-items-container shadow-7 aspect-ratio aspect-ratio--16x9">
                         <div class="latest-item-bg br1 aspect-ratio--object cover bg-center flex items-center justify-center" style="background: url('<?php echo $background[0]; ?>') no-repeat;"></div>
                     </div>
 

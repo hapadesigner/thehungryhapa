@@ -38,8 +38,8 @@
 }
 
 .recipe-hero-content p{
-    font-size: 1rem;
-    font-family: 'Open Sans';
+    font-size: 1.15rem;
+    font-family: 'Karla';
 
     @media (max-width: 600px) {
         font-size: 0.875em;
@@ -105,9 +105,10 @@
     @media (max-width: 800px) {
         width: 90%;
         margin: 1rem auto;
+        padding: 0 2rem;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         width: 95%;
         padding: 0 0.5rem;
     }
@@ -119,7 +120,7 @@
 }
 
 .about-recipe-text {
-    margin: 3rem 0;
+    margin: 1.5rem 0;
 }
 
 .about-recipe-text h3{
@@ -135,8 +136,9 @@
 }
 
 .message-box {
-    border: 3px solid black;
+    border: 2px solid #2c4b4b;
     width: 70vw;
+    max-width: 1000px;
 
     @media (max-width: 900px) {
         width: 80vw;
@@ -149,14 +151,26 @@
 
 .message-box-content {
     padding: 1rem 2rem;
+    border: solid 2px #2c4b4b;
 
     @media (max-width: 700px) {
         padding: 0.25rem 0.25rem;
     }
 }
 
+.message-box h3 {
+    font-family: 'Karla';
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .message-box p {
     font-size: 1.25rem;
+    font-family: 'karla';
+
+    @media (max-width: 1000px) {
+        font-size: 1rem;
+    }
 
     @media (max-width: 700px) {
         font-size: 0.875rem;
@@ -174,7 +188,7 @@
 
 
 .recipe-directions-section {
-    background-color: white;
+    background-color: #fffff4;
     max-width: 1300px;
     margin: 5rem auto;
     padding: 2em 3em;
@@ -238,11 +252,6 @@
     width: 40%;
     // margin: 0 auto;
     // background-color: aqua;
-
-
-    @media (max-width: 1000px) {
-        width: 100%;
-    }
 }
 
 .lists-steps-container {
@@ -284,6 +293,11 @@
 .lists-ingredients li {
     margin-bottom: 1em;
     max-width: 12rem;
+    font-family: 'Karla', sans-serif;
+
+    @media (max-width: 1000px) {
+        font-size: 0.875rem;
+    }
 }
 
 
@@ -362,6 +376,17 @@
     color: white;
     background-color: #e9692c;
 
+    @media (max-width: 1000px) {
+        margin-right: 1rem;
+    }
+
+    @media (max-width: 850px) {
+        height: 1.5rem;
+        width: 1.5rem;
+        line-height: 1.5rem;
+        margin-right: 0.75rem;
+    }
+
     @media (max-width: 650px) {
         height: 1.75em;
         width: 1.75em;
@@ -370,9 +395,18 @@
     }
 }
 
+.step-number {
+    font-size: 1rem;
+
+    @media (max-width: 850px) {
+        font-size: 0.875rem;
+    }
+}
+
 .direction-list li {
     margin-bottom: 1em;
 }
+
 
 .recipe-direction-step {
     margin-bottom: 1em;
@@ -386,8 +420,22 @@
 }
 
 .recipe-direction-step p{
-    max-width: 25rem;
+    max-width: 32rem;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.15rem;
 
+    @media (max-width: 1300px) {
+        max-width: 25rem;
+    }
+
+    @media (max-width: 1050px) {
+        max-width: 22rem;
+    }
+
+    @media (max-width: 1000px) {
+        font-size: 0.875rem;
+    }
+    
     @media (max-width: 650px) {
         max-width: 15rem;
         font-size: 0.875rem;
@@ -401,12 +449,20 @@
     font-size: 1.875em;
     padding-bottom: 3px;
     border-bottom: solid 3px;
+
+    @media (max-width: 1000px) {
+        font-size: 1.5rem;
+    }
 }
 
 .recipe-directions-container h4 {
     font-family: 'lora', sans-serif;
     font-size: 1.2em;
     font-weight: 700;
+
+    @media (max-width: 1000px) {
+        font-size: 1rem;
+    }
 }
 
 
@@ -422,18 +478,24 @@
 
 
 
-
+.more-recipe {
+    margin: 7rem auto;
+}
 
 .more-cocktails-container {
-    padding: 0 1rem;
-    margin: 3rem auto;
+    padding: 0 2rem;
+    margin: 4rem auto;
+    max-width: 1440px;
 }
 
 .recent-cocktails-titles {
     font-size: 1.25rem;   
     font-weight: 600; 
     font-family: 'Karla', sans-serif;
-    margin-bottom: 3em;
+
+    @media (max-width: 1000px) {
+        font-size: 1.15rem;
+    }
 }
 
 
