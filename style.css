@@ -54,9 +54,13 @@
   transform: translateX(10px);
   letter-spacing: 2px;
 }
-@media (max-width: 675px) {
+@media (max-width: 800px) {
   .circle {
-    max-width: 300px;
+    width: 33%;
+  }
+}
+@media (max-width: 750px) {
+  .circle {
     width: 100%;
     margin-bottom: 5rem;
   }
@@ -97,16 +101,10 @@
     height: 200px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .circle-image {
-    width: 175px;
-    height: 175px;
-  }
-}
-@media (max-width: 675px) {
-  .circle-image {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
 }
 @media (max-width: 400px) {
@@ -191,9 +189,39 @@
   height: 300px;
   border-radius: 5px;
 }
-@media (max-width: 475px) {
+@media (max-width: 1200px) {
   .card-image {
     height: 250px;
+  }
+}
+@media (max-width: 1000px) {
+  .card-image {
+    height: 200px;
+  }
+}
+@media (max-width: 900px) {
+  .card-image {
+    height: 300px;
+  }
+}
+@media (max-width: 800px) {
+  .card-image {
+    height: 250px;
+  }
+}
+@media (max-width: 700px) {
+  .card-image {
+    height: 400px;
+  }
+}
+@media (max-width: 570px) {
+  .card-image {
+    height: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .card-image {
+    height: 200px;
   }
 }
 .card-text {
@@ -1897,6 +1925,7 @@ body {
   font-size: 5rem;
   color: ivory;
   font-weight: bolder;
+  margin-top: 0;
 }
 @media (max-width: 1100px) {
   .home-headline {
@@ -1980,7 +2009,7 @@ body {
     padding: 0 4em;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .latest-container {
     padding: 0 2em;
   }
@@ -1999,10 +2028,20 @@ body {
   font-family: 'Karla', sans-serif;
   margin-bottom: 3em;
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
+  .recent-posts-titles {
+    font-size: 1.35rem;
+  }
+}
+@media (max-width: 1000px) {
   .recent-posts-titles {
     font-size: 1.1rem;
     font-weight: bold;
+  }
+}
+@media (max-width: 800px) {
+  .recent-posts-titles {
+    font-size: 1rem;
   }
 }
 @media (max-width: 750px) {
@@ -2181,12 +2220,24 @@ body {
 .latest-items-container {
   height: 300px;
 }
+@media (max-width: 1200px) {
+  .latest-items-container {
+    height: 250px;
+  }
+}
+@media (max-width: 700px) {
+  .latest-items-container {
+    height: 350px;
+  }
+}
 .latest-item-width {
   width: 30%;
 }
 @media (max-width: 700px) {
   .latest-item-width {
-    width: 75%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (max-width: 500px) {

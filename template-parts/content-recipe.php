@@ -10,7 +10,7 @@
             <?php the_field('recipe_title'); ?> 
         </h2>
 
-        <p class="">
+        <p>
             <?php the_field('recipe_intro'); ?> 
         </p>
     </div>
