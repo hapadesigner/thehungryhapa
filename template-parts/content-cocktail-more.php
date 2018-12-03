@@ -14,7 +14,7 @@
 
                 <?php $background = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'small' );?>
 
-                 <a class="db link center w-70 w-25-ns mb4 mh1" href="<?php the_permalink();?>">
+                 <a class="more-cocktails-cards db link center mb4 mh1" href="<?php the_permalink();?>">
                     <div class="aspect-ratio aspect-ratio--1x1">
                         <div class="aspect-ratio--object cover bg-center flex items-center justify-center br-100 shadow-1" style="background: url('<?php echo $background[0]; ?>') no-repeat;"></div>
                     </div>

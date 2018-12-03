@@ -41,6 +41,10 @@
     font-size: 1.15rem;
     font-family: 'Karla';
 
+    @media (max-width: 900px) {
+        font-size: 1.1em;
+    }
+
     @media (max-width: 600px) {
         font-size: 0.875em;
     }
@@ -117,6 +121,7 @@
 .about-container p {
     font-size: 1.25rem;
     margin: 2rem auto;
+
 }
 
 .about-recipe-text {
@@ -130,8 +135,12 @@
 .about-recipe-text p{
     font-size: 1.25rem;
 
-    @media (max-width: 700px) {
+    @media (max-width: 800px) {
         font-size: 1rem;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 0.9rem;
     }
 }
 
@@ -250,6 +259,10 @@
 
 .lists-ingredients-container {
     width: 40%;
+
+    @media (max-width: 750px) {
+        width: 100%;
+    }
     // margin: 0 auto;
     // background-color: aqua;
 }
@@ -259,16 +272,16 @@
     // margin: 0 auto;
 
     @media (max-width: 750px) {
-        width: 65%;
-    }
-
-    @media (max-width: 600px) {
-        width: 75%;
-    }
-
-    @media (max-width: 500px) {
         width: 100%;
     }
+
+    // @media (max-width: 600px) {
+    //     width: 75%;
+    // }
+
+    // @media (max-width: 500px) {
+    //     width: 100%;
+    // }
 }
 
 .lists-ingredients {
@@ -276,26 +289,25 @@
     flex-direction: column;
     align-items: flex-start;
 
-    @media (max-width: 750px) {
-        align-items: center;
-    }
+    // @media (max-width: 750px) {
+    //     align-items: center;
+    // }
 }
 
 .lists-ingredients ul {
-    padding: 0 1em;
-
-    @media (max-width: 750px) {
-       padding: 0;
-    }
+    padding: 0;
 }
 
 .lists-ingredients li {
+    font-size: 0.875rem;
     margin-bottom: 1em;
     max-width: 12rem;
     font-family: 'Karla', sans-serif;
+    list-style-position: inside;
 
-    @media (max-width: 1000px) {
-        font-size: 0.875rem;
+
+    @media (max-width: 750px) {
+        max-width: 25rem;
     }
 }
 
@@ -308,10 +320,10 @@
 }
 
 .lists-steps h2 {
-    @media (max-width: 700px) {
-        margin-left: auto;
-        margin-right: auto;
-    }
+    // @media (max-width: 700px) {
+    //     margin-left: auto;
+    //     margin-right: auto;
+    // }
 }
 
 .lists-steps h4 {
@@ -319,10 +331,6 @@
     font-size: 1.2em;
     font-weight: 700;
 
-    @media (max-width: 700px) {
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 .lists-steps h6 {
@@ -366,18 +374,15 @@
 
 .recipe-directions-circle {
     border-radius: 100%;
-    height: 2em;
-    width: 2em;
+    height: 1.75em;
+    width: 1.75em;
     text-align: center;
     display: inline-block;
-    line-height: 2em;
-    margin-right: 2em;
+    line-height: 1.75em;
+    margin-right: 1em;
     color: white;
     background-color: #e9692c;
 
-    @media (max-width: 1000px) {
-        margin-right: 1rem;
-    }
 
     @media (max-width: 850px) {
         height: 1.5rem;
@@ -392,14 +397,21 @@
         line-height: 1.75em;
         margin-right: 1rem;
     }
+
+    @media (max-width: 500px) {
+        height: 1.5em;
+        width: 1.5em;
+        line-height: 1.5em;
+        margin-right: 0.75rem;
+    }
+
+    @media (max-width: 400px) {
+        margin-right: 0.5rem;
+    }
 }
 
 .step-number {
-    font-size: 1rem;
-
-    @media (max-width: 850px) {
-        font-size: 0.875rem;
-    }
+    font-size: 0.875rem;
 }
 
 .direction-list li {
@@ -413,18 +425,18 @@
     display: flex;
     align-items: center;
 
-    @media (max-width: 700px) {
-        flex-direction: column;
-    }
+    // @media (max-width: 700px) {
+    //     flex-direction: column;
+    // }
 }
 
 .recipe-direction-step p{
     max-width: 32rem;
     font-family: 'Karla', sans-serif;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
 
     @media (max-width: 1300px) {
-        max-width: 25rem;
+        max-width: 28rem;
     }
 
     @media (max-width: 1050px) {
@@ -434,10 +446,27 @@
     @media (max-width: 1000px) {
         font-size: 0.875rem;
     }
+
+    @media (max-width: 900px) {
+        max-width: 20rem;
+    }
     
-    @media (max-width: 650px) {
-        max-width: 15rem;
+    @media (max-width: 750px) {
+        max-width: 28rem;
         font-size: 0.875rem;
+    }
+
+    @media (max-width: 600px) {
+        max-width: 22rem;
+    }
+
+    @media (max-width: 500px) {
+        max-width: 18rem;
+    }
+
+    @media (max-width: 400px) {
+        max-width: 14rem;
+        font-size: 0.75rem;
     }
 
 
@@ -485,6 +514,26 @@
     padding: 0 2rem;
     margin: 4rem auto;
     max-width: 1440px;
+
+    @media (max-width: 1000px) {
+        padding: 0 1rem;
+    }
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
+}
+
+.more-cocktails-cards{
+    width: 25%;
+
+    @media (max-width: 800px) {
+        width: 50%;
+    }
+
+    @media (max-width: 500px) {
+        width: 75%;
+    }
 }
 
 .recent-cocktails-titles {
@@ -494,6 +543,15 @@
 
     @media (max-width: 1000px) {
         font-size: 1.15rem;
+    }
+
+
+    @media (max-width: 900px) {
+        font-size: 1.1rem;
+    }
+
+    @media (max-width: 730px) {
+        font-size: 1rem;
     }
 }
 
