@@ -75,6 +75,11 @@
         font-size: 0.875rem;
         font-weight: 500;
     }
+
+    @media (max-width: 400px) {
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
 }
 
 .review-intro {
@@ -195,13 +200,19 @@
     }
 
 
-    // @media (max-width: 800px) {
-    //     max-width: 600px;
-    // }
+    @media (max-width: 800px) {
+        max-width: 500px;
+    }
 
     @media (max-width: 700px) {
         padding: 1.5rem 2rem;
     }
+
+    @media (max-width: 400px) {
+        padding: 1.25rem 1rem;
+        max-width: 350px;
+    }
+
 }
 
 .items-container-content {

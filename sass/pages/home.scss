@@ -282,6 +282,11 @@
         width: 300px;
     }
 
+    @media (max-width: 400px) {
+        height: 200px;
+        width: 200px;
+    }
+
 }
 
 .home-about-btn {
@@ -313,6 +318,11 @@
     @media (max-width: 800px) {
         padding: 0 6em;
     }
+
+    @media (max-width: 675px) {
+        padding: 0 2em;
+    }
+
 }
 
 .latest-recipe-container a {
@@ -368,6 +378,18 @@
     @media (max-width: 800px) {
         height: 400px;
     }
+
+    @media (max-width: 600px) {
+        height: 350px;
+    }
+
+    @media (max-width: 485px) {
+        height: 300px;
+    }
+
+    @media (max-width: 385px) {
+        height: 250px;
+    }
 }
 
 .latest-item-width {
@@ -408,6 +430,14 @@
 
     @media (max-width: 800px) {
         padding: 7em 6em;
+    }
+
+    @media (max-width: 675px) {
+        padding: 7em 2em;
+    }
+
+    @media (max-width: 475px) {
+        padding: 5em 2em;
     }
 }
 

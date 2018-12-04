@@ -3,10 +3,28 @@
     margin: 3rem auto 1rem auto;
     padding: 0 2rem;
     max-width: 1000px;
+
+    @media (max-width: 800px) {
+        max-width: 500px; 
+    }
+
+    @media (max-width: 400px) {
+        max-width: 350px; 
+        padding: 0 1rem;
+    }
+
 }
 
 .section-title-left h1 {
     margin: 0;
+
+    @media (max-width: 600px) {
+        font-size: 2rem; 
+    }
+
+    @media (max-width: 400px) {
+        font-size: 1.875rem; 
+    }
 }
 
 .item-text h2 {

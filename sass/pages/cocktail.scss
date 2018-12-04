@@ -464,8 +464,13 @@
         max-width: 18rem;
     }
 
-    @media (max-width: 400px) {
-        max-width: 14rem;
+    @media (max-width: 450px) {
+        max-width: 15rem;
+        font-size: 0.875rem;
+    }
+
+    @media (max-width: 350px) {
+        max-width: 12rem;
         font-size: 0.75rem;
     }
 
