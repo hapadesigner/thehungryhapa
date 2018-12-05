@@ -144,47 +144,7 @@
     }
 }
 
-.message-box {
-    border: 2px solid #2c4b4b;
-    width: 70vw;
-    max-width: 1000px;
 
-    @media (max-width: 900px) {
-        width: 80vw;
-    }
-
-    @media (max-width: 700px) {
-        width: 90vw;
-    }
-}
-
-.message-box-content {
-    padding: 1rem 2rem;
-    border: solid 2px #2c4b4b;
-
-    @media (max-width: 700px) {
-        padding: 0.25rem 0.25rem;
-    }
-}
-
-.message-box h3 {
-    font-family: 'Karla';
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.message-box p {
-    font-size: 1.25rem;
-    font-family: 'karla';
-
-    @media (max-width: 1000px) {
-        font-size: 1rem;
-    }
-
-    @media (max-width: 700px) {
-        font-size: 0.875rem;
-    }
-}
 
 .recipe-image img {
     width: 100% !important;
@@ -216,6 +176,7 @@
 
     @media (max-width: 700px) {
         width: 90vw;
+        border: solid 4px #e9692c;
     }
 }
 
@@ -509,7 +470,55 @@
     color: white;
 }
 
+.message-box {
+    border: 2px solid #2c4b4b;
+    width: 70vw;
+    max-width: 1000px;
 
+    @media (max-width: 900px) {
+        width: 80vw;
+    }
+
+    @media (max-width: 700px) {
+        width: 90vw;
+    }
+}
+
+.message-box-content {
+    padding: 1rem 2rem;
+    border: solid 2px #2c4b4b;
+
+    @media (max-width: 700px) {
+        padding: 0.25rem 0.25rem;
+    }
+}
+
+.message-box h3 {
+    font-family: 'Karla';
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+
+    @media (max-width: 700px) {
+        font-size: 1.25rem;
+    }
+
+    @media (max-width: 450px) {
+        font-size: 1.1rem;
+    }
+}
+
+.message-box p {
+    font-size: 1.25rem;
+    font-family: 'karla';
+
+    @media (max-width: 1000px) {
+        font-size: 1rem;
+    }
+
+    @media (max-width: 700px) {
+        font-size: 0.875rem;
+    }
+}
 
 .more-recipe {
     margin: 7rem auto;
