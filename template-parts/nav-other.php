@@ -5,14 +5,14 @@
     
     <div class="site-title">
         <a class="" href="http://thehungryhapa.com/" title="Home">
-            <img src="<?php bloginfo('template_directory');?>/images/hh_logo_white.svg" class="db default-logo" alt="logo"></img>
+            <img src="<?php bloginfo('template_directory');?>/images/hh_logo_black.svg" class="db default-logo" alt="logo"></img>
         </a>
     </div>
 
     <div class="nav-default">
         <a class="nav-default-items karla tracked ttu no-underline" href="http://thehungryhapa.com/about/" title="About">About</a>
         <a class="nav-default-items karla tracked ttu no-underline" href="http://thehungryhapa.com/recipes-main/" title="Recipes">Recipes</a>
-        <a class="nav-default-items karla tracked ttu no-underline" href="http://thehungryhapa.com/reviews-main/" title="Reviews">Reviews</a>
+        <a class="nav-default-items karla tracked ttu no-underline" href="http://thehungryhapa.com/reviews-main/" title="Reviews">Places</a>
         <a class="nav-default-items karla tracked ttu no-underline" href="http://thehungryhapa.com/blog-main/" title="Blog">Blog</a>
     </div>
 

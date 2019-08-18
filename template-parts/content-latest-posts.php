@@ -5,7 +5,7 @@
         <h2 class="home-section-header karla mv4">Recent Posts</h2>
     </div>
 
-    <div class="flex flex-wrap justify-between">
+    <div class="flex flex-wrap justify-between mv5">
         <?php 
 
             $args = array(
@@ -33,7 +33,7 @@
                             <?php the_title(); ?>
                         </p>
 
-                        <button class="circle-button ttu karla"><span>See Post &rarr;</span></button>
+                        <!-- <button class="circle-button ttu karla"><span>See Post &rarr;</span></button> -->
                     </div>
 
 

@@ -4,14 +4,14 @@
     
     <div class="site-title pl4">
         <a class="" href="http://thehungryhapa.com/" title="Home">
-            <img src="<?php bloginfo('template_directory');?>/images/hh_logo_white.svg" class="db index-logo" alt="logo"></img>
+            <img src="<?php bloginfo('template_directory');?>/images/hh_logo_black.svg" class="db index-logo" alt="logo"></img>
         </a>
     </div>
 
     <div class="nav-index pr4">
         <a class="nav-index-items karla tracked ttu no-underline text-white" href="http://thehungryhapa.com/about/" title="About">About</a>
         <a class="nav-index-items karla tracked ttu no-underline text-white" href="http://thehungryhapa.com/recipes-main/" title="Recipes">Recipes</a>
-        <a class="nav-index-items karla tracked ttu no-underline text-white" href="http://thehungryhapa.com/reviews-main/" title="Reviews">Reviews</a>
+        <a class="nav-index-items karla tracked ttu no-underline text-white" href="http://thehungryhapa.com/reviews-main/" title="Reviews">Places</a>
         <a class="nav-index-items karla tracked ttu no-underline text-white" href="http://thehungryhapa.com/blog-main/" title="Blog">Blog</a>
     </div>
 

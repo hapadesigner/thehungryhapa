@@ -21,8 +21,8 @@ get_header();
 
 		<div class="reviews-bg">
 			<div class="reviews-hero-box tc">
-				<h1 class="karla text-headline text-dark ttu mb0 tracked opensans">Reviews</h1>
-				<p class="opensans text-dark mt0 f4-l f5 karla"><span></span>A Journal of My Adventures<span></span></p>
+				<h1 class="karla text-headline text-dark ttu mb0 tracked opensans">Places To Try</h1>
+				<p class="opensans text-dark mt0 f4-l f5 karla"><span></span>Best Places to Try in D.C.<span></span></p>
 			</div>
 		</div>	
 			

@@ -74,7 +74,8 @@
     line-height: 50px;
     padding: 0;
     border: none;
-    color: ivory;
+    // color: ivory;
+    color: black;
 }
 .btn-2 span {
     position: relative;
@@ -87,7 +88,8 @@
     content: "";
     right: 0;
     top: 0;
-    background: ivory;
+    // background: ivory;
+    background: black;
     transition: all 0.3s ease;
 }
 .btn-2:before {
@@ -105,7 +107,8 @@
     content: "";
     left: 0;
     bottom: 0;
-    background: ivory;
+    // background: ivory;
+    background: black;
     transition: all 0.3s ease;
 }
 .btn-2 span:before {

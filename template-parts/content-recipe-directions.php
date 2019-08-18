@@ -109,9 +109,9 @@
 
 </div>
 
-<div class="tc mt5 center">
-        <button class="stp-btn"><a class="opensans b ttu link" href="">Step-By-Step</a></button>
-</div>
+<!-- <div class="tc mt5 center">
+    <button class="stp-btn"><a class="opensans b ttu link" href="">Step-By-Step</a></button>
+</div> -->
 
 </section>
 

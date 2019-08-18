@@ -95,6 +95,12 @@ endwhile; endif; ?>
 </div>
 
 
+
+
+
+
+
+
 <div class="more-recipe">
     <?php get_template_part('template-parts/content-cocktail-more'); ?> 
 </div>

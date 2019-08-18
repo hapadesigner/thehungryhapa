@@ -4,12 +4,17 @@
     padding: 0 1rem;
 }
 
+.blog-hero-container .category-heading {
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+}
+
 .blog-hero-container h1{
     font-size: 3.5em;
     margin: 1rem auto;
 
-    @media (max-width: 1000px) {
-        font-size: 3em;
+    @media (max-width: 1440px) {
+        font-size: 3rem;
     }
 
     @media (max-width: 800px) {
@@ -25,6 +30,10 @@
     font-size: 1rem;
 }
 
+.blog-title p {
+    margin: 0;
+}
+
 
 
 .blog-subhead {
@@ -38,14 +47,20 @@
     }
 }
 
+.blog-subhead p {
+    margin: 0;
+}
 
 
+.blog-hero-image {
+    padding: 0 2rem;
+}
 
-.blog-hero-img {
-    height: 500px;
-    width: 100%;
+.blog-hero-image img{
+    max-height: 500px;
     max-width: 1000px;
     margin: 0 auto;
+    display: block;
 
     @media (max-width: 1080px) {
         height: 400px;

@@ -16,7 +16,7 @@
     width: 75%;
 
     @media (max-width: 1100px) {
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -31,7 +31,7 @@
         font-size: 2.25em;
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 475px) {
         font-size: 2em;
     }
 
@@ -48,6 +48,10 @@
     @media (max-width: 600px) {
         font-size: 0.875em;
     }
+
+    @media (max-width: 475px) {
+        font-size: 1em;
+    }
 }
 
 .line-recipe {
@@ -60,7 +64,9 @@
 }
 
 .cocktail-heading {
-    color: chocolate;
+    // color: chocolate;
+    // color: #ff9900;
+    color: #EF4B36;
 }
 
 .recipe-intro-text {
@@ -139,9 +145,6 @@
         font-size: 1rem;
     }
 
-    @media (max-width: 500px) {
-        font-size: 0.9rem;
-    }
 }
 
 
@@ -157,12 +160,13 @@
 
 
 .recipe-directions-section {
-    background-color: #fffff4;
+    // background-color: #fffff4;
     max-width: 1300px;
     margin: 5rem auto;
     padding: 2em 3em;
     width: 85vw;
-    border: solid 7px #e9692c;
+    // border: solid 7px #e9692c;
+    border: solid 7px #EF4B36;;
 
     @media (max-width: 1200px) {
         padding: 2em 2em;
@@ -176,7 +180,8 @@
 
     @media (max-width: 700px) {
         width: 90vw;
-        border: solid 4px #e9692c;
+        // border: solid 4px #e9692c;
+        border: solid 4px #EF4B36;
     }
 }
 
@@ -342,7 +347,8 @@
     line-height: 1.75em;
     margin-right: 1em;
     color: white;
-    background-color: #e9692c;
+    // background-color: #e9692c;
+    background-color: #EF4B36;
 
 
     @media (max-width: 850px) {
@@ -398,6 +404,10 @@
 
     @media (max-width: 1300px) {
         max-width: 28rem;
+    }
+
+    @media (max-width: 1200px) {
+        max-width: 24rem;
     }
 
     @media (max-width: 1050px) {

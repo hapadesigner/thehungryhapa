@@ -1,6 +1,6 @@
 <div class="blog-hero-container center tc">
 
-    <h5 class="opensans category-heading f4-ns f6 ttu mt0 mb4 tracked w-100-l pt5">
+    <h5 class="opensans category-heading f4-ns f6 ttu mt0 tracked w-100-l">
         <?php the_field('recipe_category'); ?>  
 
         <span class="line mt2-l mt1"></span> 
@@ -40,7 +40,7 @@
 
 
 
-<div class="recipe-hero-image">
+<div class="blog-hero-image">
 
     <?php 
 

@@ -21,6 +21,8 @@ get_header();
 
 			<?php get_template_part('template-parts/content-home-bg'); ?>  
 
+			<!-- <?php get_template_part('template-parts/content-home-featured'); ?> -->
+
 			<?php get_template_part('template-parts/content-latest-posts'); ?>
 
 			<?php get_template_part('template-parts/content-home-about'); ?>
@@ -29,7 +31,7 @@ get_header();
 
 			<?php get_template_part('template-parts/content-latest-cocktail'); ?> 
 
-			<?php get_template_part('template-parts/content-latest-reviews'); ?>
+			<?php get_template_part('template-parts/content-latest-reviews'); ?> 
 
 			<?php get_template_part('template-parts/content-latest-blog'); ?>
 
